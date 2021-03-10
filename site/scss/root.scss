@@ -6,12 +6,12 @@
 button {
     border-radius: 15px;
     color: white;
-    border: solid 0.1em var(--main);
+    border: none;
     background-color: var(--accent);
     padding: 0.4em 0.9em;
 
     &:focus {
-        border: solid 0.1em white;
+        box-shadow: 0 0 0 0.1em white;
     }
 }
 
@@ -33,15 +33,17 @@ body {
         height: 100%;
 
         nav {
+            user-select: none;
             .title {
                 color: white;
                 display: flex;
                 align-items: center;
-
+                cursor: pointer;
                 img {
                     width: 36px;
                     height: 36px;
                     margin-right: 1em;
+                    box-shadow: 0 0 5px 0px #00000080;
                 }
             }
 

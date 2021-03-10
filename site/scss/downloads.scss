@@ -36,16 +36,13 @@ main {
         }
 
         &.alpha {
-            background-color: #e66e6e;
-
-            button {
-                border-color: #e66e6e;
-            }
+            background-color: #ff000080;
         }
 
         img {
             height: 100%;
             width: 100px;
+            box-shadow: 0 0 5px 0px #00000080;
         }
 
         .info {
@@ -54,7 +51,7 @@ main {
             margin: 0 2em;
 
             h2 {
-                color: white;
+                color: black;
                 margin: 0;
             }
 

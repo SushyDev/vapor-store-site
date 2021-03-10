@@ -20,7 +20,7 @@ const buildDownload = async (release) => {
     item.classList = `download-item ${isAlpha && 'alpha'}`;
 
     const icon = document.createElement('img');
-    icon.src = 'https://raw.githubusercontent.com/SushyDev/vapor-store/master/assets/icons/png/icon.png';
+    icon.src = require('../icon/vapor.png');
     icon.className = 'icon';
 
     const info = document.createElement('div');
